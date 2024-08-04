@@ -1,3 +1,6 @@
-document.getElementById("btn").addEventListener("click", function() {
-  document.getElementById("text").innerText = "ボタンをクリックしました";
+const button = document.getElementById("btn");
+const textElement = document.getElementById("text");
+
+button.addEventListener("click", function() {
+  textElement.innerText = "ボタンをクリックしました";
 });
